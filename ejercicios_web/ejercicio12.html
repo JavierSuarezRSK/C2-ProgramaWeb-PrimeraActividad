@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Ejercicio 12</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/4c602b057c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <a href="index.html">Indice</a>
+    <!--Contenido -->
+    <form action="https://kokinos.itemvirtual.com/prova">
+
+        <table>
+            <thead>
+                <tr>
+                    <th><label for="fname">Nombre</label></th>
+                    <th colspan="3"><input class="wd_inputs" type="text" id="fname" name="fname" value="Nombre"><br></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="lname">Apellidos</label></td>
+                    <td colspan="3"><input class="wd_inputs" type="text" id="lname" name="lname" value="Apellido"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="dirname">Dirección</label></td>
+                    <td colspan="3"><input class="wd_inputs" type="text" id="dirname" name="dirname" value="Dirección"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="pbname">Población</label></td>
+                    <td><input type="text" id="pbname" name="pbname" value="Población"></td>
+                    <td><label for="cpname">C.Postal</label></td>
+                    <td><input class="wd_inputs" type="text" id="cpname" name="cpname" value="C.Postal"><br></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <input type="radio" id="under25" name="age" value="Menos de 25 años">
+        <label for="under25">Menos de 25 años</label><br />
+        <input type="radio" id="btw26_40" name="age" value="26 a 40 años">
+        <label for="btw26_40">26 a 40 años</label><br />
+        <input type="radio" checked="checked" id="btw41_65" name="age" value="41 a 65 años">
+        <label for="btw41_65">41 a 65 años</label><br />
+        <input type="radio" id="up66" name="age" value="Más de 66 años">
+        <label for="up66">Más de 66 años</label><br />
+
+        <div class="desplegables_form">
+            <label for="tlfmb">Teléfono móbil</label>
+            <br />
+            <select id="tlfmb" name="tlfmblist" form="tlfmbform">
+                <option value="no_tiene">No tiene</option>
+                <option value="android">Android</option>
+                <option value="iPhone">iPhone</option>
+                <option value="otros">Otros</option>
+            </select>
+            <br />
+            <label for="vhlo">Vehículo</label>
+            <br />
+            <select id="vhlo" name="vhlolist" form="vhloform">
+                <option value="no_tiene">No tiene</option>
+                <option value="bici">Bici</option>
+                <option value="moto">Moto</option>
+                <option value="coche">Coche</option>
+                <option value="varios">Varios</option>
+                <option value="otros">Otros</option>
+            </select>
+        </div>
+
+        <br />
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>

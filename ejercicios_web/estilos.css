@@ -8,7 +8,12 @@ h1{
     color: brown;
 }
 
-/*Ejercicio 1*/
+.index_li{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/*Indice*/
 #imgPerfil {
     width: 150px;
     height: 150px;
@@ -28,8 +33,7 @@ h1.fnt-red{
     text-decoration: underline;
 }
 
-/*Ejercicio 2B*/
-
+/* Ejercicio 3b*/
 .titulo{
     color: royalblue;
     font-size: 30px;
@@ -84,8 +88,7 @@ h1.fnt-red{
     font-size: 14px;
 }
 
-/*Ejercicio 5*/
-/*Ejercicio 5.1*/
+/*Ejercicio 4b*/
 
 #menu {
     position: fixed;
@@ -120,7 +123,7 @@ h1.fnt-red{
     padding: 10%;
 }
 
-/*Ejercicio 5.2*/
+/*Ejercicio 4c*/
 .rectangulo_5b {
     background-color: red;
     font-size: 30px;
@@ -186,7 +189,7 @@ h1.fnt-red{
     padding-top: 1px;
 }
 
-/*Ejercicio 5 C*/
+/*Ejercicio 4d*/
 
 .text_div_5c {
     margin: auto;
@@ -202,7 +205,7 @@ h1.fnt-red{
     text-align: center;
 }
 
-/*Ejercicio 6*/
+/*Ejercicio 5*/
 
 .far{
     width: 100px;
@@ -249,7 +252,7 @@ h1.fnt-red{
     left: 400px;
 }
 
-/*Ejercicio 8*/
+/*Ejercicio 7*/
 
 .cabecera_table {
     background-color: cadetblue;
@@ -260,10 +263,88 @@ h1.fnt-red{
     width: 40%;
 }
 
+.center_alig {
+    text-align: center;
+}
+
 .right_alig {
     text-align: right;
 }
 
 .dest_8{
     font-weight: bold;
+}
+
+.dest_8b {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.underfact{
+    border-bottom:solid blue 1px;
+}
+
+.letras {
+    color: darkblue;
+}
+
+/*Ejercicio 8*/
+
+.fila {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+.fila div {
+    width: 75px;
+    height: 75px;
+    margin: 2px;
+    background-color: dimgrey;
+}
+
+.fila div:hover{
+    background-color:green;
+}
+
+.fila div.mina:hover {
+    background-color: red;
+    background: url("/img/bomb-solid.svg");
+}
+
+/*Ejercicio 9*/
+
+.p_10 {
+    font-family: font-family: 'Oldenburg', cursive;
+}
+.p_10::first-letter{
+    font-size: 3em;
+}
+
+.p_10::first-line{
+    color: darkred;
+}
+
+/*Ejercicio 11*/
+
+.textos_11{
+    font-size: 20px;
+    padding: 5px;
+}
+/*Ejercicio 12*/
+label {
+    color: mediumblue;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-right: 5px;
+    width: 30%;
+}
+
+.wd_inputs{
+    width: 150%;
+}
+.desplegables_form {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: -90px;
 }
